@@ -1,0 +1,22 @@
+.primeiro-exemplo {
+    display: flex;
+    flex-direction: row;
+}
+
+.primeiro-exemplo > .div-button {
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    padding: 4px;
+    border: none;
+    background-color: cadetblue;
+}
+
+.primeiro-exemplo>.div-button:hover {
+    background-color: rgb(60, 199, 204);
+}
+
+.primeiro-exemplo>button{
+    font-family: inherit;
+    font-size: 1em;
+}
